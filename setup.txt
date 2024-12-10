@@ -1,0 +1,16 @@
+run requirements.txt
+downlod dataset (https://universe.roboflow.com/6513116/realpkm/dataset/1)
+place dataset in train folder
+
+run process.py(this file gives you 2 files
+ 1. embeddings.npy
+ 2. image_paths.npy
+streamlit run app.py
+
+error 1:
+solution : i write this on app.py now there is no error in app
+"""import os
+os.environ['KMP_DUPLICATE_LIB_OK']='TRUE'"""
+
+error 2: 2024-12-11 04:15:35.998 Examining the path of torch.classes raised: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_
+chat 11/dec/2024: clude says to reinstall torch for this problem i didt but it dont work then i re create whole project and leave this errorr as it is.

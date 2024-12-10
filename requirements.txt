@@ -1,0 +1,2 @@
+pip install git+https://github.com/openai/CLIP.git
+pip install streamlit torch torchvision faiss-cpu pillow
