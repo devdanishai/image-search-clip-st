@@ -1,3 +1,5 @@
+project name :image-search-clip-st
+use case: ecommerce image search app
 run requirements.txt
 downlod dataset (https://universe.roboflow.com/6513116/realpkm/dataset/1)
 place dataset in train folder
