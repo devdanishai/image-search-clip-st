@@ -1,7 +1,9 @@
 project name :image-search-clip-st
 use case: ecommerce image search app
 run requirements.txt
-downlod dataset (https://universe.roboflow.com/6513116/realpkm/dataset/1)
+downlod dataset:chose anyone
+    1. (https://universe.roboflow.com/6513116/realpkm/dataset/1)
+    2. (https://universe.roboflow.com/raptailai-self-checkout/grocery-items-cesw1/dataset/1)
 place dataset in train folder
 
 run process.py(this file gives you 2 files
